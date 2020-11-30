@@ -1,0 +1,101 @@
+2020-12-01 00:11:16.031  INFO 16456 --- [restartedMain] com.car.CarApplication                   : Starting CarApplication on LAPTOP-AF7P5HJA with PID 16456 (C:\workspace\workspace_idea\SmallByBaiZhi\car\target\classes started by wei19 in C:\workspace\workspace_idea\SmallByBaiZhi\car)
+2020-12-01 00:11:16.042  INFO 16456 --- [restartedMain] com.car.CarApplication                   : No active profile set, falling back to default profiles: default
+2020-12-01 00:11:16.092  INFO 16456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 00:11:16.093  INFO 16456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 00:11:17.073 ERROR 16456 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:11:17.423 ERROR 16456 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:11:17.527  INFO 16456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-12-01 00:11:17.535 ERROR 16456 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:11:17.536  INFO 16456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 00:11:17.536  INFO 16456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-12-01 00:11:17.614  INFO 16456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/car]    : Initializing Spring embedded WebApplicationContext
+2020-12-01 00:11:17.614  INFO 16456 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1521 ms
+2020-12-01 00:11:18.199  INFO 16456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 00:11:18.361  INFO 16456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 00:11:18.408  INFO 16456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path '/car'
+2020-12-01 00:11:18.411  INFO 16456 --- [restartedMain] com.car.CarApplication                   : Started CarApplication in 2.817 seconds (JVM running for 3.344)
+2020-12-01 00:11:31.886  INFO 16456 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/car]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 00:11:31.886  INFO 16456 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-01 00:11:31.890  INFO 16456 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-12-01 00:12:48.900  INFO 16456 --- [http-nio-8989-exec-8] com.car.controller.UserController        : 用户正在登陆.....
+2020-12-01 00:12:48.982  INFO 16456 --- [http-nio-8989-exec-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-12-01 00:12:56.062  INFO 16456 --- [http-nio-8989-exec-9] com.car.controller.UserController        : 用户正在登陆.....
+2020-12-01 00:12:59.825  INFO 16456 --- [http-nio-8989-exec-10] com.car.controller.UserController        : 用户正在登陆.....
+2020-12-01 00:13:47.315  WARN 16456 --- [http-nio-8989-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'car' on field 'bir': rejected value [2020-12-12]; codes [typeMismatch.car.bir,typeMismatch.bir,typeMismatch.java.util.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [car.bir,bir]; arguments []; default message [bir]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'bir'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@com.fasterxml.jackson.annotation.JsonFormat java.util.Date] for value '2020-12-12'; nested exception is java.lang.IllegalArgumentException]]
+2020-12-01 00:17:24.806  INFO 14136 --- [restartedMain] com.car.CarApplication                   : Starting CarApplication on LAPTOP-AF7P5HJA with PID 14136 (C:\workspace\workspace_idea\SmallByBaiZhi\car\target\classes started by wei19 in C:\workspace\workspace_idea\SmallByBaiZhi\car)
+2020-12-01 00:17:24.810  INFO 14136 --- [restartedMain] com.car.CarApplication                   : No active profile set, falling back to default profiles: default
+2020-12-01 00:17:24.858  INFO 14136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 00:17:24.858  INFO 14136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 00:17:25.736 ERROR 14136 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:17:26.075 ERROR 14136 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:17:26.189  INFO 14136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-12-01 00:17:26.198 ERROR 14136 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:17:26.199  INFO 14136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 00:17:26.199  INFO 14136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-12-01 00:17:26.281  INFO 14136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/car]    : Initializing Spring embedded WebApplicationContext
+2020-12-01 00:17:26.281  INFO 14136 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1423 ms
+2020-12-01 00:17:26.753  INFO 14136 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 00:17:26.921  INFO 14136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 00:17:26.972  INFO 14136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path '/car'
+2020-12-01 00:17:26.975  INFO 14136 --- [restartedMain] com.car.CarApplication                   : Started CarApplication in 2.582 seconds (JVM running for 3.035)
+2020-12-01 00:17:33.105  INFO 14136 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/car]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 00:17:33.106  INFO 14136 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-01 00:17:33.110  INFO 14136 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-12-01 00:17:33.173  WARN 14136 --- [http-nio-8989-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'car' on field 'bir': rejected value [2020-12-12]; codes [typeMismatch.car.bir,typeMismatch.bir,typeMismatch.java.util.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [car.bir,bir]; arguments []; default message [bir]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'bir'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@com.fasterxml.jackson.annotation.JsonFormat java.util.Date] for value '2020-12-12'; nested exception is java.lang.IllegalArgumentException]]
+2020-12-01 00:17:39.754  INFO 14136 --- [http-nio-8989-exec-10] com.car.controller.UserController        : 用户正在登陆.....
+2020-12-01 00:17:39.820  INFO 14136 --- [http-nio-8989-exec-10] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-12-01 00:18:01.588  WARN 14136 --- [http-nio-8989-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors
+Field error in object 'car' on field 'bir': rejected value [2020-12-12]; codes [typeMismatch.car.bir,typeMismatch.bir,typeMismatch.java.util.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [car.bir,bir]; arguments []; default message [bir]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.util.Date' for property 'bir'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@com.fasterxml.jackson.annotation.JsonFormat java.util.Date] for value '2020-12-12'; nested exception is java.lang.IllegalArgumentException]]
+2020-12-01 00:18:54.333  INFO 7836 --- [restartedMain] com.car.CarApplication                   : Starting CarApplication on LAPTOP-AF7P5HJA with PID 7836 (C:\workspace\workspace_idea\SmallByBaiZhi\car\target\classes started by wei19 in C:\workspace\workspace_idea\SmallByBaiZhi\car)
+2020-12-01 00:18:54.336  INFO 7836 --- [restartedMain] com.car.CarApplication                   : No active profile set, falling back to default profiles: default
+2020-12-01 00:18:54.386  INFO 7836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 00:18:54.387  INFO 7836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 00:18:55.273 ERROR 7836 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:18:55.623 ERROR 7836 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:18:55.734  INFO 7836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-12-01 00:18:55.743 ERROR 7836 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:18:55.743  INFO 7836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 00:18:55.744  INFO 7836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-12-01 00:18:55.826  INFO 7836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/car]    : Initializing Spring embedded WebApplicationContext
+2020-12-01 00:18:55.827  INFO 7836 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1439 ms
+2020-12-01 00:18:56.307  INFO 7836 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 00:18:56.479  INFO 7836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 00:18:56.526  INFO 7836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path '/car'
+2020-12-01 00:18:56.530  INFO 7836 --- [restartedMain] com.car.CarApplication                   : Started CarApplication in 2.615 seconds (JVM running for 3.077)
+2020-12-01 00:19:07.011  INFO 7836 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/car]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 00:19:07.012  INFO 7836 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-01 00:19:07.017  INFO 7836 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-01 00:19:07.228  INFO 7836 --- [http-nio-8989-exec-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-12-01 00:19:09.317  INFO 7836 --- [http-nio-8989-exec-10] com.car.controller.UserController        : 用户正在登陆.....
+2020-12-01 00:19:37.205  INFO 7836 --- [http-nio-8989-exec-2] com.car.controller.CarController         : 汽车信息: Car(id=null, name=雪佛兰, number=20, ship=myCAr, bir=Sat Dec 12 00:00:00 GMT+08:00 2020, path=null)
+2020-12-01 00:19:37.206  INFO 7836 --- [http-nio-8989-exec-2] com.car.controller.CarController         : 头像信息: 7.mongo作业.png
+2020-12-01 00:20:39.941  INFO 13364 --- [restartedMain] com.car.CarApplication                   : Starting CarApplication on LAPTOP-AF7P5HJA with PID 13364 (C:\workspace\workspace_idea\SmallByBaiZhi\car\target\classes started by wei19 in C:\workspace\workspace_idea\SmallByBaiZhi\car)
+2020-12-01 00:20:39.944  INFO 13364 --- [restartedMain] com.car.CarApplication                   : No active profile set, falling back to default profiles: default
+2020-12-01 00:20:39.992  INFO 13364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 00:20:39.992  INFO 13364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 00:20:40.859 ERROR 13364 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:20:41.202 ERROR 13364 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:20:41.306  INFO 13364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-12-01 00:20:41.315 ERROR 13364 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 00:20:41.316  INFO 13364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 00:20:41.316  INFO 13364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-12-01 00:20:41.388  INFO 13364 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/car]    : Initializing Spring embedded WebApplicationContext
+2020-12-01 00:20:41.388  INFO 13364 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1396 ms
+2020-12-01 00:20:41.891  INFO 13364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 00:20:42.055  INFO 13364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 00:20:42.104  INFO 13364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path '/car'
+2020-12-01 00:20:42.107  INFO 13364 --- [restartedMain] com.car.CarApplication                   : Started CarApplication in 2.59 seconds (JVM running for 3.077)
+2020-12-01 00:20:50.271  INFO 13364 --- [http-nio-8989-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/car]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-01 00:20:50.272  INFO 13364 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-01 00:20:50.279  INFO 13364 --- [http-nio-8989-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-01 00:20:52.614  INFO 13364 --- [http-nio-8989-exec-9] com.car.controller.UserController        : 用户正在登陆.....
+2020-12-01 00:20:52.671  INFO 13364 --- [http-nio-8989-exec-9] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-12-01 00:21:14.445  INFO 13364 --- [http-nio-8989-exec-3] com.car.controller.CarController         : 汽车信息: Car(id=null, name=雪佛兰, number=20, ship=myCar, bir=Sat Dec 12 00:00:00 GMT+08:00 2020, path=null)
+2020-12-01 00:21:14.446  INFO 13364 --- [http-nio-8989-exec-3] com.car.controller.CarController         : 头像信息: 7.mongo作业.png
+2020-12-01 00:21:20.898  INFO 13364 --- [http-nio-8989-exec-3] com.car.controller.CarController         : 删除汽车id: 77b65a93-2913-4bd3-8ccf-0528ef8302a4
+2020-12-01 00:21:31.144  INFO 13364 --- [http-nio-8989-exec-10] com.car.controller.CarController         : 汽车信息: Car(id=8a6b5a06-0973-46a6-bba6-5d0993b1c295, name=小奥迪, number=12, ship=这是好车, bir=Tue Dec 11 00:00:00 GMT+08:00 2012, path=null)
+2020-12-01 00:21:31.144  INFO 13364 --- [http-nio-8989-exec-10] com.car.controller.CarController         : 头像信息: 2.mongo的分布式概念.png
+2020-12-01 00:21:41.193  INFO 13364 --- [http-nio-8989-exec-5] com.car.controller.CarController         : 汽车信息: Car(id=a5eeb538-d003-46ae-b090-801a61170f97, name=dfsfdsfds , number=123, ship=奥迪汽车专业品牌, bir=Tue Dec 11 00:00:00 GMT+08:00 2012, path=null)
+2020-12-01 00:21:41.193  INFO 13364 --- [http-nio-8989-exec-5] com.car.controller.CarController         : 头像信息: 10.副本集的相关操作.png
