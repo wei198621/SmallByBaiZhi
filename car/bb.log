@@ -99,3 +99,27 @@ Field error in object 'car' on field 'bir': rejected value [2020-12-12]; codes [
 2020-12-01 00:21:31.144  INFO 13364 --- [http-nio-8989-exec-10] com.car.controller.CarController         : 头像信息: 2.mongo的分布式概念.png
 2020-12-01 00:21:41.193  INFO 13364 --- [http-nio-8989-exec-5] com.car.controller.CarController         : 汽车信息: Car(id=a5eeb538-d003-46ae-b090-801a61170f97, name=dfsfdsfds , number=123, ship=奥迪汽车专业品牌, bir=Tue Dec 11 00:00:00 GMT+08:00 2012, path=null)
 2020-12-01 00:21:41.193  INFO 13364 --- [http-nio-8989-exec-5] com.car.controller.CarController         : 头像信息: 10.副本集的相关操作.png
+2020-12-01 00:54:35.058  INFO 13364 --- [http-nio-8989-exec-8] com.car.controller.UserController        : 用户正在登陆.....
+2020-12-01 20:39:01.250  INFO 13484 --- [main] com.car.CarApplicationTests              : Starting CarApplicationTests on LAPTOP-AF7P5HJA with PID 13484 (started by wei19 in C:\workspace\workspace_idea\SmallByBaiZhi\car)
+2020-12-01 20:39:01.252  INFO 13484 --- [main] com.car.CarApplicationTests              : No active profile set, falling back to default profiles: default
+2020-12-01 20:39:02.794 ERROR 13484 --- [main] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 20:39:03.131  INFO 13484 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 20:39:03.445  INFO 13484 --- [main] com.car.CarApplicationTests              : Started CarApplicationTests in 2.569 seconds (JVM running for 3.588)
+2020-12-01 20:39:03.676  INFO 13484 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-01 20:39:03.676  INFO 13484 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-12-01 20:39:20.216  INFO 20940 --- [restartedMain] com.car.CarApplication                   : Starting CarApplication on LAPTOP-AF7P5HJA with PID 20940 (C:\workspace\workspace_idea\SmallByBaiZhi\car\target\classes started by wei19 in C:\workspace\workspace_idea\SmallByBaiZhi\car)
+2020-12-01 20:39:20.219  INFO 20940 --- [restartedMain] com.car.CarApplication                   : No active profile set, falling back to default profiles: default
+2020-12-01 20:39:20.276  INFO 20940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-01 20:39:20.276  INFO 20940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-01 20:39:21.212 ERROR 20940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 20:39:21.586 ERROR 20940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 20:39:21.726  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8989 (http)
+2020-12-01 20:39:21.737 ERROR 20940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.7] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2020-12-01 20:39:21.737  INFO 20940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-01 20:39:21.738  INFO 20940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-12-01 20:39:21.824  INFO 20940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/car]    : Initializing Spring embedded WebApplicationContext
+2020-12-01 20:39:21.824  INFO 20940 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1547 ms
+2020-12-01 20:39:22.373  INFO 20940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-01 20:39:22.535  INFO 20940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-01 20:39:22.604  INFO 20940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8989 (http) with context path '/car'
+2020-12-01 20:39:22.607  INFO 20940 --- [restartedMain] com.car.CarApplication                   : Started CarApplication in 2.83 seconds (JVM running for 3.348)
