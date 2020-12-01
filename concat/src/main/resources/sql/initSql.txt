@@ -1,0 +1,52 @@
+
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+-- Table structure for smallproject_concat_emp
+-- ----------------------------
+DROP TABLE IF EXISTS `smallproject_concat_emp`;
+CREATE TABLE `smallproject_concat_emp` (
+  `id` varchar(40) NOT NULL,
+  `name` varchar(60) DEFAULT NULL,
+  `number` varchar(50) DEFAULT NULL,
+  `ship` varchar(40) DEFAULT NULL,
+  `bir` date DEFAULT NULL,
+  `path` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+-- ----------------------------
+-- Records of smallproject_concat_emp
+-- ----------------------------
+BEGIN;
+INSERT INTO `smallproject_concat_emp` VALUES ('77b65a93-2913-4bd3-8ccf-0528ef8302a4', '刘能', '100', '奥迪汽车专业品牌', '2012-12-12', '/car/830caf29-1e8e-4a79-bfdc-d398c76d7a47.gif');
+INSERT INTO `smallproject_concat_emp` VALUES ('8a6b5a06-0973-46a6-bba6-5d0993b1c295', '刘二狗', '12', '这是好车', '2012-12-12', '/car/39fc73fb-0136-4338-9dfa-9471dddad3df.jpg');
+INSERT INTO `smallproject_concat_emp` VALUES ('a5eeb538-d003-46ae-b090-801a61170f97', '张老三 ', '123', '奥迪汽车专业品牌', '2012-12-12', '/car/bf560715-a516-403d-a430-7db861f3eba9.png');
+COMMIT;
+
+
+
+-- ----------------------------
+-- Table structure for smallproject_concat_emp
+-- ----------------------------
+DROP TABLE IF EXISTS `smallproject_concat_user`;
+CREATE TABLE `smallproject_concat_user` (
+  `id` VARCHAR(40) NOT NULL,
+  `username` VARCHAR(60) DEFAULT NULL,
+  `realname` VARCHAR(50) DEFAULT NULL,
+  `password` VARCHAR(40) DEFAULT NULL,
+  `sex` VARCHAR(40) DEFAULT NULL,
+  `role` VARCHAR(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=INNODB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of smallproject_concat_emp
+-- ----------------------------
+BEGIN;
+INSERT INTO `smallproject_concat_user` VALUES ('77b65a93-2913-4bd3-8ccf-33333', 'leo', '刘二狗', '123456', '男', 'admin');
+INSERT INTO `smallproject_concat_user` VALUES ('77b65a93-2913-4bd3-8ccf-55555', 'admin', '刘狗', 'admin', '男', 'admin');
+INSERT INTO `smallproject_concat_user` VALUES ('77b65a93-2913-4bd3-8ccf-66666', 'test', '刘能', '123456', '男', 'admin');
+COMMIT;
